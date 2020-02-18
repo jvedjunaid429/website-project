@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+* {
+     font-family: 'Fira Code', monospace;
+      box-sizing: border-box;
+}
+
+.padding {
+     padding: 30px;
+}
+#para1{
+     color: black
+}
+
+.navbarcolor{
+     background-color: green ;
+     font-size: xx-large;
+}
+h1{ 
+   background-color: green;
+     font-size: 45px;;
+     text-align: center;
+}
+h2 {
+     background-color: green;
+     font-size: 35px;
+}
+h3{
+     background-color: green;
+     font-size: 30px;
+}
+p { background-color: green;
+     font-size: 25px;
+}
+body{
+     background-image: url('https://media.giphy.com/media/WoD6JZnwap6s8/giphy.gif');
+     background-size: cover;
+     
+     height: 100vh;
+     padding:0;
+     margin:0;
+ }
+
+ .imagealign {
+      text-align: center;
+ }
+
+.container {
+      display: flex;
+      justify-content: center;
+ }
+ 
+ .unit{
+      display: flex;
+      justify-content: left;
+ }
+
+ .flexitem {
+      flex: 1;
+ }
